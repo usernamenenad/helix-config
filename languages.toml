@@ -1,0 +1,5 @@
+[[language]]
+name = "python"
+roots = ["pyproject.toml", "Poetry.lock", ".git"]
+formatter = {command = "black", args = ["--quiet", "-"]}
+auto-format = true
