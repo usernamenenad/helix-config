@@ -12,6 +12,7 @@ display-messages = true
 [keys.normal]
 C-s = ":w"
 C-a = "select_all"
+d = "delete_selection_noyank"
 
 [editor.file-picker]
 hidden = false
